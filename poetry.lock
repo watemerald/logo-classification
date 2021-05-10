@@ -1750,14 +1750,13 @@ typing-extensions = "*"
 
 [[package]]
 name = "torchmetrics"
-version = "0.3.1"
+version = "0.3.2"
 description = "PyTorch native Metrics"
 category = "main"
 optional = false
 python-versions = ">=3.6"
 
 [package.dependencies]
-numpy = "*"
 packaging = "*"
 torch = ">=1.3.1"
 
@@ -1945,7 +1944,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "8d338a7e0bc776a8b46f54ca23a39ed2d3270457d06e3a78b69bb54733b7345c"
+content-hash = "4a073bde57a4d8c4ca3bab3f8e36a0b9a2e1e38397ed4b391a7e3c11c929c27e"
 
 [metadata.files]
 absl-py = [
@@ -3196,8 +3195,8 @@ torch = [
     {file = "torch-1.8.1-cp39-none-macosx_10_9_x86_64.whl", hash = "sha256:225ee4238c019b28369c71977327deeeb2bd1c6b8557e6fcf631b8866bdc5447"},
 ]
 torchmetrics = [
-    {file = "torchmetrics-0.3.1-py3-none-any.whl", hash = "sha256:bf6162b56c9466fdfa8f185e8bbd48c7740c4f46d1335bc4db87ac1efcdad0e2"},
-    {file = "torchmetrics-0.3.1.tar.gz", hash = "sha256:78f4057db53f7c219fdf9ec9eed151adad18dd43488a44e5c780806d218e3f1d"},
+    {file = "torchmetrics-0.3.2-py3-none-any.whl", hash = "sha256:04bfbfdf4fb12f7191fa86b4e42efb7205d4cb95e833b6add60f55fdba9ae5fb"},
+    {file = "torchmetrics-0.3.2.tar.gz", hash = "sha256:351391e79f20458fa3a2876b2e559ebb69536d8c38b47b085b66ac5acfb7269d"},
 ]
 torchvision = [
     {file = "torchvision-0.9.1-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:da4c4f7363b60b0637354974ea0a29dbc301f66c9f25d92ed5f10637909f3500"},
