@@ -1258,6 +1258,17 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "pytesseract"
+version = "0.3.7"
+description = "Python-tesseract is a python wrapper for Google's Tesseract-OCR"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+Pillow = "*"
+
+[[package]]
 name = "pytest"
 version = "6.2.4"
 description = "pytest: simple powerful testing with Python"
@@ -1934,7 +1945,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "f6b7d9877a3a93bb9efe977be1c22bdbd604a9a8da609aaf0f47a0fd0ec466ed"
+content-hash = "8d338a7e0bc776a8b46f54ca23a39ed2d3270457d06e3a78b69bb54733b7345c"
 
 [metadata.files]
 absl-py = [
@@ -2834,6 +2845,9 @@ pyparsing = [
 ]
 pyrsistent = [
     {file = "pyrsistent-0.17.3.tar.gz", hash = "sha256:2e636185d9eb976a18a8a8e96efce62f2905fea90041958d8cc2a189756ebf3e"},
+]
+pytesseract = [
+    {file = "pytesseract-0.3.7.tar.gz", hash = "sha256:4ecfc898d00a70fcc38d2bce729de1597c67e7bc5d2fa26094714c9f5b573645"},
 ]
 pytest = [
     {file = "pytest-6.2.4-py3-none-any.whl", hash = "sha256:91ef2131a9bd6be8f76f1f08eac5c5317221d6ad1e143ae03894b862e8976890"},
