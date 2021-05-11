@@ -39,7 +39,7 @@ class Logo2kDataModule(pl.LightningDataModule):
     def num_classes(self) -> int:
         return 10
 
-    def setUp(self, stage: Optional[str] = None) -> None:
+    def setup(self, stage: Optional[str] = None) -> None:
         dataset = ImageFolder(self.data_dir)
         splits = self._get_splits(dataset)
         train, val, test = random_split(
