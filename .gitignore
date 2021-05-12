@@ -1,5 +1,8 @@
 .vscode
+lightning-logs/
 lightning_logs/
+logo-classification_default
+wandb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
